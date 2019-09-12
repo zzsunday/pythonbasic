@@ -1,0 +1,15 @@
+[DEFAULT]
+a = test
+
+[mysql]
+default-character-set = utf8
+
+[mysqld]
+datadir = /dbserver/data
+character-set-server = utf8
+sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+
+[test]
+test1 = sun
+test2 = day
+
